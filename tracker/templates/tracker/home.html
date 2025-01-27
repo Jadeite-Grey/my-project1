@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Tracker</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'tracker/styles.css' %}">
+</head>
+<body>
+    <h1>Welcome to Medicine Tracker</h1>
+    <a href="{% url 'signup' %}">Sign Up</a>
+    <a href="{% url 'login' %}">Login</a>
+</body>
+</html>
